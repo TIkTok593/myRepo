@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-console.log(process.env.API_KEY);
+
 
 mongoose.connect("mongodb://localhost:27017/userDB");
 
